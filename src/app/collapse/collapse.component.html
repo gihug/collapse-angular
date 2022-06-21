@@ -1,0 +1,6 @@
+<div class="">
+    <div class="collapsible-header" (click)="toogleChecked()">{{ title }}</div>
+    <div class="collapsible-body" [class.active]="checked">
+        <ng-content></ng-content>
+    </div>
+</div>
